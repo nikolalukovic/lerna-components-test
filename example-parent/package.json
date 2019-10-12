@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@itekako/itekako-one": "0.0.6",
-    "@itekako/itekako-two": "0.0.6",
+    "@itekako/itekako-one": "0.0.7",
+    "@itekako/itekako-two": "0.0.7",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
