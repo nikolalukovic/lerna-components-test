@@ -9,7 +9,7 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "bootstrap": "lerna bootstrap",
-    "build": "lerna exec --parallel -- babel src -d dist --ignore src/__tests__/,src/__stories__/,src/__wireframe__/**",
+    "build": "lerna exec --parallel -- babel src -d dist --ignore src/__tests__/,src/__stories__/",
     "build:watch": "npm run build -- --watch",
     "export-static-storybook": "build-storybook -c .storybook -o .out",
     "publish-packages": "lerna publish",
