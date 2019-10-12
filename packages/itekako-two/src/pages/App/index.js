@@ -4,9 +4,10 @@ import TwoButton from '../../components/Button';
 import FlexRow from '../../containers/FlexRow';
 import { StyledApp } from './styles';
 
-const App = ({ className }) => {
+const App = props => {
+    console.log('Two props', props);
     return (
-        <div className={className}>
+        <div className={props.className}>
             <FlexRow>
                 <TwoButton />
             </FlexRow>
