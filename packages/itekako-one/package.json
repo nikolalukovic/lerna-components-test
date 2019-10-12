@@ -1,0 +1,18 @@
+{
+  "name": "@itekako/itekako-one",
+  "version": "0.0.1",
+  "description": "Example package",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "author": "Nikola Lukovic",
+  "peerDependencies": {
+    "react": "^16.10.2"
+  },
+  "publishConfig": {
+    "access": "private"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.21",
+    "@emotion/styled": "^10.0.17"
+  }
+}

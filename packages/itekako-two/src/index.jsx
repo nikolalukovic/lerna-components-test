@@ -1,0 +1,1 @@
+export { default as TwoApp } from './pages/App';
