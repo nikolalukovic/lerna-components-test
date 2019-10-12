@@ -4,12 +4,16 @@ import TwoButton from '../../components/Button';
 import FlexRow from '../../containers/FlexRow';
 import { StyledApp } from './styles';
 
-const App = () => {
+const App = ({ className }) => {
     return (
-        <FlexRow>
-            <TwoButton />
-        </FlexRow>
+        <div className={className}>
+            <FlexRow>
+                <TwoButton />
+            </FlexRow>
+        </div>
     );
 };
 
-export default StyledApp(App);
+const SApp = StyledApp(App);
+
+export default SApp;
