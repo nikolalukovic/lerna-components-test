@@ -1,6 +1,6 @@
 {
   "name": "@itekako/itekako-one",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Example package",
   "main": "dist/index.js",
   "module": "src/index.js",
