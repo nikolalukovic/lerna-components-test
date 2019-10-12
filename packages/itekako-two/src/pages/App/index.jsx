@@ -1,14 +1,15 @@
 import React from 'react';
-import './styles.css';
 
 import TwoButton from '../../components/Button';
+import FlexRow from '../../containers/FlexRow';
+import { StyledApp } from './styles';
 
 const App = () => {
     return (
-        <div className="two-app">
+        <FlexRow>
             <TwoButton />
-        </div>
+        </FlexRow>
     );
 };
 
-export default App;
+export default StyledApp(App);
