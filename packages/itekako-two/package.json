@@ -1,6 +1,6 @@
 {
   "name": "@itekako/itekako-two",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Example package",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -10,5 +10,9 @@
   },
   "publishConfig": {
     "access": "private"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.21",
+    "@emotion/styled": "^10.0.17"
   }
 }
