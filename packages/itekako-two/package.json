@@ -1,10 +1,13 @@
 {
   "name": "@itekako/itekako-two",
-  "version": "0.0.11",
+  "version": "0.0.0",
   "description": "Example package",
   "main": "dist/index.js",
   "module": "src/index.js",
   "author": "Nikola Lukovic",
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "react": "^16.10.2"
   },
